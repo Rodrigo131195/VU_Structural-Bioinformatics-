@@ -5,7 +5,7 @@ This repository contains Python scripts developed for an assignment in the field
 
 Project Structure:
 
-readDSSP.py: This Python script reads DSSP files containing protein structure data to calculate amino acid propensities for burial in the protein core. It utilizes the unfolded surface accessibility data and DSSP files to perform the analysis. The script generates an output file containing the calculated propensities.
+readDSSP.py: This Python script reads DSSP files containing protein structure data to calculate amino acid propensities for burial in the protein core. It utilizes the unfolded surface accessibility data and DSSP files to perform the analysis. The script generates an output file containing the calculated propensities. Data not provided as is over 25MB.
 
 readPDB.py: This Python script parses PDB files to calculate phi and psi angles and assign secondary structure types to each residue in the protein structure. It utilizes vector operations and geometric calculations to determine the dihedral angles. The script outputs a file containing the calculated angles and secondary structure assignments.
 
